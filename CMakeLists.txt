@@ -8,3 +8,5 @@ add_library(stuff greeting.c factorial.c)
 
 add_executable(hello hello.c)
 target_link_libraries(hello stuff)
+
+add_subdirectory(cxx)
